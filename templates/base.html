@@ -29,7 +29,7 @@
     {% block extra_js %}
     {% endblock %}   
 
-    <title>BuyBuy {% block extra_title %}{& endblock &}</title>
+    <title>BuyBuy {% block extra_title %}{% endblock %}</title>
   </head>
   <body>
     <header class="container-fluid fixed-top"></header>
@@ -46,6 +46,6 @@
 
     {% block postloadjs %}
     {% endblock %}
-    
+
   </body>
 </html>
