@@ -1,1 +1,1 @@
- gunicorn boutique_ado.wsgi:application
+ gunicorn buybuy.wsgi:application
