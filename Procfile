@@ -1,1 +1,1 @@
- gunicorn jr-buybuy.wsgi:application
+ gunicorn buybuy.wsgi:application
