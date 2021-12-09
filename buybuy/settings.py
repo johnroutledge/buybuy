@@ -117,7 +117,7 @@ ACCOUNT_USERNAME_MIN_LENGTH = 4
 LOGIN_URL = '/accounts/login/'
 LOGIN_REDIRECT_URL = '/'
 
-WSGI_APPLICATION = 'buybuy.wsgi.application'
+WSGI_APPLICATION = 'jr-buybuy.wsgi.application'
 
 
 # Database
@@ -185,7 +185,7 @@ if 'USE_AWS' in os.environ:
         'Expires': 'Thu, 31 Dec 2099 20:00:00 GMT',
         'CacheControl': 'max-age=94608000',
     }
-    
+
     # Bucket Config
     AWS_STORAGE_BUCKET_NAME = 'jr-buybuy'
     AWS_S3_REGION_NAME = 'eu-west-2'
